@@ -47,15 +47,15 @@ class MyPreferenceFragment : PreferenceFragmentCompat(),
         }
 
         if (key == email) {
-            namePreference.summary = sharedPreferences?.getString(email, DEFAULT_VALUE)
+            emailPreference.summary = sharedPreferences?.getString(email, DEFAULT_VALUE)
         }
 
         if (key == age) {
-            namePreference.summary = sharedPreferences?.getString(age, DEFAULT_VALUE)
+            agePreference.summary = sharedPreferences?.getString(age, DEFAULT_VALUE)
         }
 
         if (key == phone) {
-            namePreference.summary = sharedPreferences?.getString(phone, DEFAULT_VALUE)
+            phonePreference.summary = sharedPreferences?.getString(phone, DEFAULT_VALUE)
         }
 
         if (key == love) {
